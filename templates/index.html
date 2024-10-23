@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classic Movie Recommendations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body class="vintage-bg">
+    <div class="container text-center">
+        <div class="mt-5">
+            <h1 class="vintage-title">🎥 Classic Movie Recommender 🎥</h1>
+            <p class="vintage-subtitle">Find your next favorite film from the golden era of cinema!</p>
+            <form method="GET" action="/recommend" class="mt-4">
+                <div class="form-group">
+                    <label for="movieTitle" class="vintage-label">Enter a Movie Title:</label>
+                    <input type="text" class="form-control vintage-input" id="movieTitle" name="title" placeholder="Write title name" required>
+                </div>
+                <button type="submit" class="btn vintage-btn mt-3">Get Recommendations</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
