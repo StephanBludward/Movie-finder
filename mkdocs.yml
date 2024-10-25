@@ -1,4 +1,15 @@
 site_name: My Docs
+  nav:
+  - Home: index.md
+  - About the Code:
+    - Who Created the Code: who_created_code.md
+    - What the Code Is: what_is_code.md
+    - What the Code Is Not: what_code_is_not.md
+    - Future Goals: future_goals.md
+    - Purpose: purpose.md
+    - How We Came Up with the Idea: idea_and_planning.md
+    - How It Works: how_it_works.md
+    - Installation: installation.md
+    - Future Development: future_development.md
 theme:
   name: material
-  

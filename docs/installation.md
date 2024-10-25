@@ -7,7 +7,7 @@ Follow these steps to install and run the Classic Movie Recommender app on your 
   ```bash
   python --version
   ```
-- **pip**: Should be included with Python. If not, install it from [pip's official website](https://pip.pypa.io/en/stable/installation/).
+- **pip**: Should be included with Python.
 
 ## Step-by-Step Setup
 

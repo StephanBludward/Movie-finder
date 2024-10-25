@@ -1,62 +1,123 @@
-body.vintage-bg {
-    background-color: #2e2e2e;
-    color: #fff;
-    font-family: 'Special Elite', cursive;
-    background-image: url('/static/images/vintage-cinema-bg.jpg');
+/* Base Styling */
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/static/images/dark-cinema-bg.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
-.vintage-title {
-    font-size: 3em;
-    font-weight: bold;
-    color: #ffd700;
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 30, 0.9);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ff4b2c;
     text-shadow: 3px 3px 6px #000;
 }
 
-.vintage-subtitle {
-    font-size: 1.5em;
-    color: #d3d3d3;
-    font-style: italic;
-}
-
-.vintage-label {
-    font-size: 1.2em;
-    color: #ffd700;
-}
-
-.vintage-input {
-    border: 2px solid #ffd700;
-    background-color: #1c1c1c;
-    color: #fff;
-    font-size: 1.1em;
-    text-align: center;
-}
-
-.vintage-btn {
-    background-color: #d9534f;
+/* Buttons */
+.btn {
+    background-color: #ff4b2b;
     border: none;
     padding: 10px 20px;
-    font-size: 1.2em;
-    color: #fff;
+    font-size: 1.1em;
+    color: #f0f0f0;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     text-shadow: 1px 1px 2px #000;
+    border-radius: 50px;
 }
 
-.vintage-btn:hover {
-    background-color: #b22222;
+.btn:hover {
+    background-color: #ff6347;
+    transform: scale(1.05);
 }
 
-.vintage-input:focus, .vintage-btn:focus {
+.btn:focus {
     outline: none;
-    box-shadow: 0px 0px 5px #ffd700;
 }
 
-.container {
-    max-width: 600px;
-    padding: 20px;
+/* Form Input */
+.form-group label {
+    font-size: 1.2em;
+    color: #ff4b2b;
+    font-weight: bold;
+}
+
+.form-control {
+    border: 2px solid #ff4b2b;
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    padding: 10px;
+    font-size: 1.1em;
+    text-align: center;
+    border-radius: 50px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #ff6347;
+    box-shadow: 0px 0px 8px #ff4b2b;
+}
+
+/* List Styling */
+.list-group-item {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    border: 1px solid #ff4b2b;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.list-group-item:hover {
+    background-color: #ff4b2b;
+    color: #121212;
+    transform: scale(1.03);
+}
+
+/* Links */
+a {
+    color: #ff4b2b;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .form-control {
+        font-size: 1em;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 1em;
+    }
 }
