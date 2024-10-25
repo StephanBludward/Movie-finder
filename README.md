@@ -13,5 +13,5 @@ Welcome to the **Classic Movie Recommender**, a vintage-themed movie recommendat
 ### Step-by-Step Guide
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/classic-movie-recommender.git
+   git clone  https://stephanbludward.github.io/Movie-finder/
    cd classic-movie-recommender

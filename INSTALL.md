@@ -13,7 +13,7 @@ Follow these steps to install and run the Classic Movie Recommender app on your 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/classic-movie-recommender.git
+   git clone  https://stephanbludward.github.io/Movie-finder/
    cd classic-movie-recommender
    ```
 
